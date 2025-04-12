@@ -6,6 +6,6 @@ data class Goal(
     val id: String?,
     val category: String,
     val monthLimit: Double,
-    val startMonth: LocalDate?,
+    val startMonth: LocalDate,
     val endMonth: LocalDate?
 )
